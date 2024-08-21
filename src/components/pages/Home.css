@@ -7,6 +7,7 @@
 .homePageMain{
     /* border: 2px solid red; */
     display: flex;
+    
     margin: auto;
     flex-direction: column;
     justify-content: center;
@@ -163,3 +164,4 @@
     
     }
 }
+
