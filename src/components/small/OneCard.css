@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.one_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 40vw;
+    position: relative;
+    color: black;
+    /* border: 2px solid red; */
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px black;
+    /* background-color: #262626; Example background color */
+    overflow: hidden; /* Ensure content doesn't overflow and is clipped */
+}
+.one_card:hover{
+   
+    box-shadow: 2px 2px 2px 2px rgb(204, 46, 46);
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+}
+
+.image {
+    width: 280px;
+    height: 220px;
+    border-radius: 1rem;
+    /* Add any necessary styling for your image */
+}
+
+.tour-info,
+.info {
+    text-align: center;
+    font-size: medium;
+    justify-content: center;
+    padding: 1rem;
+    position: relative; /* Ensure content is positioned correctly */
+    z-index: 1; /* Ensure content is above pseudo-elements */
+}
+
+/* 
+.element {
+    width: 250px;
+    height: 186px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 24px;
+    
+  } */
+
+  .btn1main{
+    cursor: pointer;
+    margin-top: 4rem;
+    padding: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9999px;
+    background-color: yellow;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    max-width: fit-content;
+    box-shadow: 0px 0.5px 0px 0px white;
+}
+.btn1main:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+   
+}
+
+.btn1in{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    transition: all 0.2s ease-in-out;
+}
+.btn1main:hover .btn1in {
+    background-color: blue;
+    color: white;
+}
+
+@media (max-width:1279px) {
+    .one_card{
+        width: auto;
+        height: auto;
+    }
+}

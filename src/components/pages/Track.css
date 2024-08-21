@@ -1,0 +1,107 @@
+.trackPage {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    background-color: white;
+    /* background-image: url("https://images.ctfassets.net/lzny33ho1g45/best-fitness-tracking-apps-p-img/e2e0d9b19f341b84bc368acf6054ac9f/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760"); */
+    margin: auto;
+}
+
+.tracknav {
+    color: white;
+}
+
+.trackPageMain {
+    min-height: 100vh;
+}
+
+.headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head1, .head2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid #000814;
+}
+
+.head1 {
+    font-size: 3rem;
+    animation: typing 6s steps(50, end), blink-caret .5s step-end infinite;
+}
+
+.head2 {
+    font-size: 2rem;
+    animation: typing 6s steps(50, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%; /* Adjust to a value that is visible and within the container */
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white;
+    }
+}
+
+@media (max-width: 1100px) {
+    .head1 {
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.5rem; /* Adjust font size for smaller screens if necessary */
+    }
+    .head2 {
+        margin: auto;
+        font-size: 1.5rem; /* Adjust font size for smaller screens if necessary */
+    }
+}
+
+@media (max-width: 768px) {
+    .trackPage {
+        padding: 10px;
+    }
+    .head1 {
+        font-size: 2rem;
+    }
+    .head2 {
+        margin: auto;
+        font-size: 1.2rem; /* Example: adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .head1 {
+        font-size: 1.8rem;
+    }
+    .head2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .head1 {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+    .head2 {
+        font-size: 1rem; /* Adjusted font size for smaller screens */
+    }
+}

@@ -1,0 +1,63 @@
+.signuppage{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/premium-photo/illustration-fitness-equipments-design-background_916191-36199.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.signupform{
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #FFF970;
+    border-radius: 5%;
+    box-shadow: 4px 4px 5px 1px black;
+    padding: 1rem;
+}
+.inptxt1{
+    font-size: medium;
+    font-weight: 600;
+    /* padding: 0.4rem; */
+   
+}
+
+.fillinBox1{
+    width: 80%;
+    border-radius: 0.5rem;
+    background-color: #2C333F;    
+    padding: 6px;
+    color:white
+    ;
+}
+
+.signupbtn1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: larger;
+    padding: 0.3rem;
+    width: 60%;
+    background-color:#3B71CA;
+    border-radius: 3rem;
+   margin-top: 2rem;
+   border: none;
+   text-decoration: none;
+   color: black;
+  }
+.signupbtn1:hover{
+    background-color:red;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}

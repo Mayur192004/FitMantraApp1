@@ -1,0 +1,124 @@
+
+
+.addMealPage{
+    display: flex;
+    
+    flex-direction: column;
+    /* align-items: center; */
+    margin-right: 5rem;
+    width: 100%;
+   
+    margin-top: -4rem;
+    max-width: 100vw;
+}
+.mainContent{
+    
+    display: flex;
+    justify-content: space-between;
+}
+/* @media (max-width:1300px) {
+    .mainContent{
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */
+
+.charts{
+
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.pieChartContainer{
+    width: 35%;
+    margin-top: 3rem;
+}
+.chartContainer{
+    width:40% ;
+}
+
+
+
+.loginCard1{
+/* border: 2px solid red; */
+width:400px;
+height:360px;
+display: flex;
+position: relative;
+flex-direction: column;
+/* justify-content: center; */
+/* align-items: center; */
+
+border-radius: 5%;
+box-shadow: 4px 4px 5px 1px black;
+}
+
+.loginInput1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0.7rem;
+    gap:2rem;
+
+    /* border: 2px solid red; */
+}
+
+.btns1{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.mealList {
+    margin-top: 20px;
+}
+
+.head21 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mealSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mealType {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.mealType h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mealTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mealTable th, .mealTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.mealTable th {
+    background-color: #f4f4f4;
+}
+
+
+@media (max-width:700px) {
+    .mealSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
