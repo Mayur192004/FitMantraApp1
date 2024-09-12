@@ -1,0 +1,77 @@
+
+/* Container for the form and plan display */
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a1a, #333); /* Dark gradient background */
+}
+
+/* Form container with glass effect */
+.form-container, .plan-container {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    height: calc(100vh - 40px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Depth shadow */
+}
+
+.form-container {
+    margin-right: 20px;
+}
+
+.plan-container {
+    margin-left: 20px;
+}
+
+/* Input fields styling */
+.input-field {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Submit button styling */
+.submit-button {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.submit-button:hover {
+    background: #0056b3;
+}
+
+/* Textarea for displaying the generated plan */
+.plan-textarea {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    resize: none;
+    font-size: 16px;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+}
