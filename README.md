@@ -1,6 +1,6 @@
 # FitMantra App
   Fitness and Diet Tracker App
-  
+  Demo Link : https://drive.google.com/file/d/1oaleQNEgUc5-_s6YVVSMdrkwqpGkmh7M/view?usp=sharing
   Main Features :
   ## 1. Calorie and Diet Tracker
   ## 2. BMI Calculator
